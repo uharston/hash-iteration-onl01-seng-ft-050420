@@ -7,5 +7,10 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.each do |suite, passenger|
+    if suite == :suite_a and passenger.start_with?("A")
+      winner = nmae
+    end
+  end
+  winner
 end
