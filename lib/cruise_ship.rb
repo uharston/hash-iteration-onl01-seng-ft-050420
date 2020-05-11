@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   passengers.each do |suite, passenger|
-    if suite == :suite_a and passenger.start_with?("A")
+    if suite == :suite_a && passenger.start_with?("A")
       winner = nmae
     end
   end
